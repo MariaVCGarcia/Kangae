@@ -1,15 +1,12 @@
 /*global stlyles and reset*/
-
-
 body,html{
     height: 100%;
 }
 body{
     position: relative;
     align-items: center;
-    background-color: #736262;
+    background-color: #f4d0d0;
 }
-
 /* Header */
 header {
     text-align: center;
@@ -19,7 +16,7 @@ header {
     background-color: var(--header-color);
     background-size: cover;
     background-position: center;
-    height: 215px;
+    height: 125px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,13 +26,13 @@ header {
 
 }
 .hero-content {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(145, 140, 140, 0.3);
     border-radius: 10px;
     color: #f5f5dc;
     padding: 8px;
 }
 .hero-content div {
-    padding-bottom: 12px;
+    padding-bottom: 10px;
     color: inherit;
 }
 .hero-content h1,  .hero-content h2{
@@ -43,4 +40,38 @@ header {
     background-color: rgba(0, 0, 0, 0);
     padding: initial;
     margin: 0px;;
+}
+
+/*navbar*/
+nav{
+    background-color: rgb(114, 79, 129);
+    height: 46.4px;
+    position:sticky;
+}
+.nav-container{
+    padding: 0;
+    margin:0;
+    text-align: left;
+    overflow-x: auto;
+    white-space:nowrap;
+    height: 46.6;
+    color: aliceblue;
+}
+.nav-button{
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+.active{
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: inline-block;
 }
