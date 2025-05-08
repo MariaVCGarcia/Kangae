@@ -89,6 +89,10 @@ p{
     font-style: normal;
     color:rgb(13, 14, 14);
 }
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 /* Gallery */
 .scroll-container {
@@ -124,3 +128,16 @@ p{
     justify-content: center;
     display: flex;
 }
+
+/* Footer 
+footer {
+    padding: 8px;
+    margin: 0px;
+    background-color: ;
+    color: ;
+}
+footer p {
+    text-align: center;
+    color: inherit;
+}
+*/
