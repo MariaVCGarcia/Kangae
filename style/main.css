@@ -89,3 +89,38 @@ p{
     font-style: normal;
     color:rgb(13, 14, 14);
 }
+
+/* Gallery */
+.scroll-container {
+    background-color: #792974;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+.gallery {
+    display: inline-block;
+    border: 1px solid hsl(298, 31%, 21%);
+    margin: 5px;
+    background-color: #6a3862;
+}
+
+.gallery .description {
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.gallery:hover {
+    border: 1px solid hsl(291, 70%, 53%);
+}
+
+.gallery img {
+    max-height: 200px;
+    width: auto;
+}
+
+.gallery a {
+    justify-content: center;
+    display: flex;
+}
