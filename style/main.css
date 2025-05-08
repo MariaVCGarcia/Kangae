@@ -1,4 +1,6 @@
 /*global stlyles and reset*/
+
+
 body,html{
     height: 100%;
 }
@@ -6,4 +8,39 @@ body{
     position: relative;
     align-items: center;
     background-color: #736262;
+}
+
+/* Header */
+header {
+    text-align: center;
+}
+.hero {
+    /*background-image: url('/../header-bg.jpeg');  Replace with your hero image */
+    background-color: var(--header-color);
+    background-size: cover;
+    background-position: center;
+    height: 215px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+
+}
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    color: #f5f5dc;
+    padding: 8px;
+}
+.hero-content div {
+    padding-bottom: 12px;
+    color: inherit;
+}
+.hero-content h1,  .hero-content h2{
+    color: inherit;
+    background-color: rgba(0, 0, 0, 0);
+    padding: initial;
+    margin: 0px;;
 }
